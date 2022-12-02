@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.BarCodeActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/teal_700"
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/back2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_round_arrow_back_24"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:layout_below="@id/toolbar2"
+        android:layout_width="match_parent"
+        app:autoFocusButtonVisible="true"
+        app:flashButtonColor="@color/white"
+        app:maskColor="#5A5454"
+        app:flashButtonVisible="true"
+        app:autoFocusButtonColor="@color/white"
+        android:id="@+id/code_scanner"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

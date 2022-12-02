@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "512777266853",
+    "project_id": "do-kon",
+    "storage_bucket": "do-kon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512777266853:android:460079699db7bbde210f4c",
+        "android_client_info": {
+          "package_name": "com.example.dokon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512777266853-6h4lo5rd0mkj86gikvsr77aq1jj8jmn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAenjQVOoXXx1nGBSDnGwOYv_OMcCEWyxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512777266853-6h4lo5rd0mkj86gikvsr77aq1jj8jmn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
